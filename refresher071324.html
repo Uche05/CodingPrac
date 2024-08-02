@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online Portfolio Project of Christian_codes">
+    <meta name="keywords" content="web development, web developer, projects, code, coding projects">
+    <meta name="author" content="Christian_codes">
+    <title>Personal HTML Project</title>
+    <style>
+        #thd,
+        .th1 {
+            padding: 2px;
+            width: max-content;
+            height: max-content;
+            border: 1px solid black;
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="position: static; color:rgb(44, 23, 230)">Portfolio Project- HTML Only</h1>
+    <nav>
+
+    </nav>
+    <pre>
+    &nbsp;
+</pre>
+    <div>
+
+
+        <main>
+            <header>
+                <h2 style="position: initial; color:rgb(245, 49, 219); text-align: center">Schedule</h2>
+            </header>
+
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <a href="#news">News</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#thd">Tables</a>
+                        <a href="#Contact">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery" aria-label="Schedule Table">
+                <table style="border: 1px solid black;">
+                    <thead id="thd">
+                        <tr>
+                            <th class="th1">S/N</th>
+                            <th class="th1">Date Expected To Be Done</th>
+                            <th class="th1">Expectations in Project</th>
+                            <th class="th1">Personal Given Difficulty Range</th>
+                            <th class="th1">Alarm</th>
+                            <th class="th1">Have you done it?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!---ROW 1-->
+                        <tr>
+                            <td>1</td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="date" name="" id="">
+                                </form>
+                            </td>
+
+                            <td>
+                                <ol>
+                                    <li></li>
+                                </ol>
+                            </td>
+
+                            <td>
+                                <p
+                                    style="background-color: green; color:rgb(239, 49, 245); margin-left: 0%; padding: 1px; text-align:center">
+                                    Easy</p>
+                            </td>
+
+                            <td>
+                                <form action="" method="">
+                                    <input type="button" value="Create Alarm">
+                                </form>
+                            </td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="checkbox" name="yes" id="prj1">
+                                </form>
+                            </td>
+                        </tr>
+                        <!---ROW 2-->
+                        <tr>
+                            <td>2</td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="date" name="" id="">
+                                </form>
+                            </td>
+
+                            <td>
+                                <ol>
+                                    <li></li>
+                                </ol>
+                            </td>
+
+                            <td>
+                                <p
+                                    style="background-color: yellow; color:rgb(245, 49, 219); margin-left: 0%; padding: 1px; text-align:center">
+                                    Medium</p>
+                            </td>
+
+                            <td>
+                                <a href=""><button type="button"></button></a>
+                            </td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="checkbox" name="yes" id="prj2">
+                                </form>
+                            </td>
+                        </tr>
+                        <!---ROW 3-->
+                        <tr>
+                            <td>3</td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="date" name="" id="">
+                                </form>
+                            </td>
+
+                            <td>
+                                <ol>
+                                    <li></li>
+                                </ol>
+                            </td>
+
+                            <td>
+                                <p
+                                    style="background-color: red; color:rgb(49, 245, 52); margin-left: 0%; padding: 1px; text-align:center">
+                                    Hard</p>
+                            </td>
+
+                            <td>
+                                <a href=""><button type="button"></button></a>
+                            </td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="checkbox" name="yes" id="prj3">
+                                </form>
+                            </td>
+                        </tr>
+                        <!---ROW 4-->
+                        <tr>
+                            <td>4</td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="date" name="" id="">
+                                </form>
+                            </td>
+
+                            <td>
+                                <ol>
+                                    <li></li>
+                                </ol>
+                            </td>
+
+                            <td>
+                                <p
+                                    style="background-color: red; color:rgb(49, 245, 52); margin-left: 0%; padding: 1px; text-align:center">
+                                    Hard</p>
+                            </td>
+
+                            <td>
+                                <a href=""><button type="button"></button></a>
+                            </td>
+
+                            <td>
+                                <form action="" method="post">
+                                    <input type="checkbox" name="yes" id="prj4">
+                                </form>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div aria-label="Info on Difficulty Range In Table">
+                    <p style="background-color: rgb(44, 23, 230); color:rgb(245, 49, 219)">Information on Difficulty
+                        Range</p>
+                    <p style="background-color: red; color:rgb(49, 245, 52)">Hard</p>
+                    <p style="background-color: yellow; color:rgb(245, 49, 219)">Medium</p>
+                    <p style="background-color: green; color:rgb(239, 49, 245)">Easy</p>
+                </div>
+
+
+            </div>
+
+            <div id="contact">
+                <aside aria-label="Contact Info">
+                    <div>
+                        <h3>Contact Me</h3>
+                    </div>
+                    <ol style="list-style-image: url('');">
+                        <li>(44)7533432207</li>
+                    </ol>
+
+                    <div>
+                        <h4>Socials</h4>
+                        <ul type="" style="text-align: center;">
+                            <li><img src="" alt="Instagram"></li>
+                            <li><img src="" alt=""></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="form">
+
+            </div>
+
+            <div class="map">
+                <!--- More on maps and HTML APIS Later-->
+            </div>
+
+            <div>
+                <h3>My Age</h3>
+                <form action="">
+                    <label for="age">Age</label>
+                    <select id="age" name="age">
+                        <option value="under-20">Under 20</option>
+                        <option value="20s">20-29</option>
+                        <option value="30s">30-39</option>
+                        <option value="40s">40-49</option>
+                        <option value="50s">50-59</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="feedback">
+                <form id="feedbackform" name="feedbackform" aria-label="feedbackform">
+                    <label for="feedback">
+                        <h3>What's your feedback on my projects? </h3>
+                    </label>
+                    <textarea name="feedback" placeholder="Write your feedback here" id="feedback"></textarea>
+                    <button type="submit" for="feedback"
+                        style="color: aqua; background-color: rgb(2,3,4); border: 3px solid saddlebrown">Submit
+                        Feedback!</button>
+                </form>
+            </div>
+
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<hr>
+    <footer>
+        &copy; Christian_codes. All rights reserved.
+    </footer>
+</body>
+
+</html>
